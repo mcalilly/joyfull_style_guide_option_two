@@ -2,6 +2,7 @@ module.exports = {
   theme: {
     fontFamily: {
       sans: [
+        'Lato',
         'system-ui',
         '-apple-system',
         'BlinkMacSystemFont',
@@ -16,7 +17,19 @@ module.exports = {
         '"Segoe UI Symbol"',
         '"Noto Color Emoji"',
       ],
-      serif: ['Georgia', 'Cambria', '"Times New Roman"', 'Times', 'serif']
+      display: [
+        'Alegreya',
+        'Georgia',
+        'Cambria',
+        'serif'
+      ],
+      body: [
+      'Lato',
+      'system-ui',
+      '-apple-system',
+      'Roboto',
+      'sans-serif'
+      ]
     },
 
     extend: {
